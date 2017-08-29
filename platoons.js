@@ -143,7 +143,7 @@ const territories = {
         platoons: [[], [], [], [], [], []]
     }
 };
-$(() => fetch("/units").then(r => r.json()).then(units => {
+$(() => fetch("https://github.com/ck-goh/swgoh-data/units.json").then(r => r.json()).then(units => {
     const num = n => {
         if (isNaN(n)) {
             return "Unknown";
