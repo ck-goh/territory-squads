@@ -161,7 +161,7 @@ $(() => fetch("https://ck-goh.github.io/swgoh-data/units.json").then(r => r.json
             return;
         }
         const port = container.append('div').classed('portrait', true);
-        port.append('img').attr('src', 'http://swgoh.gg/static/img/assets/' + unit.texture + '.png');
+        port.append('img').attr('src', 'https://swgoh.gg/static/img/assets/' + unit.texture + '.png');
         port.append('div').classed('border', true);
         for (var i = 1; i <= s; i++) {
             port.append('div').attr('class', 'star star-' + i).text('⭐');
