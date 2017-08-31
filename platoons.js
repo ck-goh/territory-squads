@@ -14,133 +14,91 @@ const territories = {
                     { stars: 6, units: 4, requires: ['Light Side'], rewards: [140000, 9400] },
                     { stars: 7, units: 5, requires: ['Light Side'], rewards: [233000, 11800] }
                 ] },
-            { name: 'placeholder', type: 'special', tiers: [] }
-        ],
-        platoons: [
-            ['Stormtrooper Han', 'Ezra Bridger', 'Obi-Wan Kenobi (Old Ben)', 'Logray', 'Luminara Unduli',
-                'Baze Malbus', 'CT-5555 "Fives"', 'Kanan Jarrus', 'Sabine Wren', 'Plo Koon',
-                'Resistance Pilot', 'Kanan Jarrus', 'Sabine Wren', 'Aayla Secura', 'Luke Skywalker (Farmboy)'],
-            ['Chief Chirpa', 'Jawa', 'Resistance Pilot', 'Cassian Andor', 'Wedge Antilles',
-                'Paploo', 'Jedi Knight Guardian', 'K-2SO', 'Sabine Wren', 'Kanan Jarrus',
-                'Resistance Trooper', 'Jawa Engineer', 'CT-21-0408 "Echo"', 'Jawa', 'Logray'],
-            ['Barriss Offee', 'Stormtrooper Han', 'Ewok Elder', 'Kit Fisto', 'Chirrut Îmwe',
-                'Kit Fisto', 'Chief Chirpa', 'Admiral Ackbar', 'Paploo', 'CT-7567 "Rex"',
-                'Baze Malbus', 'Poe Dameron', 'Logray', 'Jawa', 'CT-5555 "Fives"'],
-            ['Garazeb "Zeb" Orrelios', 'Jawa Scavenger', 'Ewok Elder', 'CT-5555 "Fives"', 'Resistance Pilot',
-                'Mace Windu', 'Wedge Antilles', 'Bistan', 'Plo Koon', 'Chopper',
-                'CT-21-0408 "Echo"', 'Ewok Scout', 'Bistan', 'Cassian Andor', 'Pao'],
-            [],
-            []
         ]
     },
     'p2t1': {
         name: 'Ion Cannon',
         phase: 2,
         stars: [1900000, 19800000, 55000000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p2t2': {
         name: 'Overlook',
         phase: 2,
         stars: [1900000, 15400000, 43800000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p3t1': {
         name: 'Rear Airspace',
         phase: 3,
         stars: [1920000, 16500000, 26300000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p3t2': {
         name: 'Rear Trenches',
         phase: 3,
         stars: [3510000, 27600000, 64800000],
-        missions: [],
-        platoons: [
-            ['Ahsoka Tano', 'CT-7567 "Rex"', 'Garazeb "Zeb" Orrelios', 'Eeth Koth', 'Kanan Jarrus',
-                'Bodhi Rook', 'Jedi Knight Guardian', 'Finn', 'Dathcha', 'K-2SO',
-                'Baze Malbus', 'Sabine Wren', 'CT-5555 "Fives"', 'Mace Windu', 'CT-7567 "Rex"'],
-            [],
-            [],
-            [],
-            [],
-            ['Chirrut Îmwe', 'Baze Malbus', 'Jyn Erso', 'Biggs Darklighter', 'Sabine Wren',
-                'Scarif Rebel Pathfinder', 'Lobot', 'Jyn Erso', 'Garazeb "Zeb" Orrelios', 'Princess Leia',
-                'Garazeb "Zeb" Orrelios', 'Hera Syndulla', 'Chopper', 'Sabine Wren', 'Kanan Jarrus']
-        ]
+        missions: []
     },
     'p3t3': {
         name: 'Power Generator',
         phase: 3,
         stars: [3510000, 22400000, 52200000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p4t1': {
         name: 'Forward Airspace',
         phase: 4,
         stars: [2176000, 18700000, 29800000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p4t2': {
         name: 'Forward Trenches',
         phase: 4,
         stars: [5220000, 34700000, 78100000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p4t3': {
         name: 'Outer Pass',
         phase: 4,
         stars: [5220000, 28300000, 62600000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p5t1': {
         name: 'Contested Airspace',
         phase: 5,
         stars: [18000000, 34000000, 50000000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p5t2': {
         name: 'Snowfields',
         phase: 5,
         stars: [14100000, 49300000, 89800000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p5t3': {
         name: 'Forward Stronghold',
         phase: 5,
         stars: [11100000, 41000000, 71600000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p6t1': {
         name: 'Imperial Fleet Staging Area',
         phase: 6,
         stars: [21600000, 40800000, 60000000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p6t2': {
         name: 'Imperial Flank',
         phase: 6,
         stars: [31000000, 72000000, 100000000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     },
     'p6t3': {
         name: 'Imperial Landing',
         phase: 6,
         stars: [26400000, 59300000, 81500000],
-        missions: [],
-        platoons: [[], [], [], [], [], []]
+        missions: []
     }
 };
 $(() => fetch("https://ck-goh.github.io/swgoh-data/units.json").then(r => r.json()).then(units => {
@@ -183,14 +141,6 @@ $(() => fetch("https://ck-goh.github.io/swgoh-data/units.json").then(r => r.json
         rows.select('th').text(d => d.name);
         //rows.selectAll('td.tier').data(d => d.tiers).html(t => t.join('<br>'));
         //rows.selectAll('td:last-child').data(d => d.tiers).html(t => t.join('<br>'));
-        const platoons = d3.select('.platoons').selectAll('.platoon').data(territory.platoons);
-        platoons.exit().remove();
-        const toons = platoons.enter().append('div').classed('platoon', true).merge(platoons)
-            .selectAll('.toon').data(p => p);
-        toons.exit().remove();
-        toons.enter().append('div').classed('toon', true).merge(toons).each(function (t) {
-            portrait(d3.select(this), t, territory.phase + 1);
-        });
     };
     selectT('p1t1');
     d3.selectAll('svg path').on('click', function () {
