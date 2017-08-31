@@ -2,7 +2,7 @@ const territories = {
     'p1t1': {
         name: 'Rebel Base',
         phase: 1,
-        stars: [885000, 6690000, 46500000],
+        stars: [885000, 6580000, 45600000],
         missions: [
             { name: 'Sector 12', type: 'combat', tiers: [
                     { stars: 3, units: 3, requires: ['Rebels'], rewards: [14700, 2200] },
@@ -36,28 +36,28 @@ const territories = {
     'p2t1': {
         name: 'Ion Cannon',
         phase: 2,
-        stars: [NaN, 20100000, NaN],
+        stars: [1900000, 19800000, 55000000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p2t2': {
         name: 'Overlook',
         phase: 2,
-        stars: [1900000, 15600000, NaN],
+        stars: [1900000, 15400000, 43800000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p3t1': {
         name: 'Rear Airspace',
         phase: 3,
-        stars: [1920000, 16500000, NaN],
+        stars: [1920000, 16500000, 26300000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p3t2': {
         name: 'Rear Trenches',
         phase: 3,
-        stars: [3510000, NaN, NaN],
+        stars: [3510000, 27600000, 64800000],
         missions: [],
         platoons: [
             ['Ahsoka Tano', 'CT-7567 "Rex"', 'Garazeb "Zeb" Orrelios', 'Eeth Koth', 'Kanan Jarrus',
@@ -75,70 +75,70 @@ const territories = {
     'p3t3': {
         name: 'Power Generator',
         phase: 3,
-        stars: [3510000, NaN, NaN],
+        stars: [3510000, 22400000, 52200000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p4t1': {
         name: 'Forward Airspace',
         phase: 4,
-        stars: [2176000, NaN, NaN],
+        stars: [2176000, 18700000, 29800000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p4t2': {
         name: 'Forward Trenches',
         phase: 4,
-        stars: [5220000, NaN, NaN],
+        stars: [5220000, 34700000, 78100000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p4t3': {
         name: 'Outer Pass',
         phase: 4,
-        stars: [5220000, NaN, NaN],
+        stars: [5220000, 28300000, 62600000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p5t1': {
         name: 'Contested Airspace',
         phase: 5,
-        stars: [18000000, NaN, NaN],
+        stars: [18000000, 34000000, 50000000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p5t2': {
         name: 'Snowfields',
         phase: 5,
-        stars: [14100000, NaN, NaN],
+        stars: [14100000, 49300000, 89800000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p5t3': {
         name: 'Forward Stronghold',
         phase: 5,
-        stars: [11100000, NaN, NaN],
+        stars: [11100000, 41000000, 71600000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p6t1': {
         name: 'Imperial Fleet Staging Area',
         phase: 6,
-        stars: [21600000, NaN, NaN],
+        stars: [21600000, 40800000, 60000000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p6t2': {
         name: 'Imperial Flank',
         phase: 6,
-        stars: [31100000, NaN, NaN],
+        stars: [31000000, 72000000, 100000000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     },
     'p6t3': {
         name: 'Imperial Landing',
         phase: 6,
-        stars: [26500000, NaN, NaN],
+        stars: [26400000, 59300000, 81500000],
         missions: [],
         platoons: [[], [], [], [], [], []]
     }
